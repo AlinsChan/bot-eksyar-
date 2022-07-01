@@ -1,7 +1,5 @@
 /**
-   * Create By Dika Ardnt.
-   * Contact Me on wa.me/6288292024190
-   * Follow https://github.com/DikaArdnt
+   
 */
 
 require('./config')
@@ -540,11 +538,11 @@ Ketik *nyerah* untuk menyerah dan mengakui kekalahan`
             }
             break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74fd634010128be37972c.jpg' }, caption: `*Hallo Kak ${m.pushName}*\n\n *Owner saya Open sewa bot*\n *⭔10k Per Group via dana 1 Bulan*\n *⭔10k via pulsa per 1 Bulan*\n\n*Donasi Donk Terserah mau berapa,Bisa via Dana/pulsa*\n\n *info lebih lanjut, Bisa chat owner saya*\nhttps://wa.me/6285822347348 (*Owner*)\n\n _Awas Lu Bohong_` }, { quoted: m })
+                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74fd634010128be37972c.jpg' }, caption: `*Hallo Kak ${m.pushName}*\n\n *Owner saya Open sewa bot*\n *⭔10k Per Group via dana 1 Bulan*\n *⭔10k via pulsa per 1 Bulan*\n\n*Donasi Donk Terserah mau berapa,Bisa via Dana/pulsa*\n\n *info lebih lanjut, Bisa chat owner saya*\nhttps://wa.me/6282195000000 (*Owner*)\n\n _Awas Lu Bohong_` }, { quoted: m })
             }
             break
             case 'sc': {
-                m.reply('https://wa.me/6285822347348')
+                m.reply('https://wa.me/6282195000000')
             }
             break
             case 'chat': {
@@ -712,7 +710,7 @@ Ketik *nyerah* untuk menyerah dan mengakui kekalahan`
             let member = participants.map(u => u.id)
             let orang = member[Math.floor(Math.random() * member.length)]
             let jodoh = member[Math.floor(Math.random() * member.length)]
-            let jawab = `Ciee yang Jadian💖 Jangan lupa Donasi Ke *Arull*🗿
+            let jawab = `Ciee yang Jadian💖 Jangan lupa Donasi Ke *EksBot*🗿
 
 @${orang.split('@')[0]} ❤️ @${jodoh.split('@')[0]}`
             let menst = [orang, jodoh]
@@ -1146,13 +1144,13 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Grub Ofc ArullBotzMD',
-                                    url: 'https://chat.whatsapp.com/LDN0EeJfASs0lbUhJsOJu1'
+                                    displayText: 'Grub Ofc EksBot',
+                                    url: 'https://chat.whatsapp.com/'
                                 }
                             }, {
                                 callButton: {
-                                    displayText: 'Number Arull',
-                                    phoneNumber: '+6285822347348'
+                                    displayText: 'EksBot',
+                                    phoneNumber: '+6282195000000'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1185,13 +1183,13 @@ break
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: 'Grub Ofc ArullBotzMD',
-                                    url: 'https://chat.whatsapp.com/LDN0EeJfASs0lbUhJsOJu1'
+                                    displayText: 'Grub OFC EksBot',
+                                    url: 'https://chat.whatsapp.com/'
                                 }
                             }, {
                                 callButton: {
-                                    displayText: 'Number Arull',
-                                    phoneNumber: '+6285822347348'
+                                    displayText: EksBot',
+                                    phoneNumber: '+6282195000000'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1209,7 +1207,7 @@ break
                                     id: 'sc'
                                 }
                             }]
-                      let txt = `「 *Broadcast ArullBotzMD* 」\n\n${text}`
+                      let txt = `「 *Broadcast EksBot* 」\n\n${text}`
                       hisoka.send5ButImg(yoi, txt, hisoka.user.name, global.thumb, btn)
 		}
 		m.reply('*Sukses Broadcast*')
@@ -2721,7 +2719,7 @@ let capt = `⭔ Title: ${judul}
                 ]
                 },
                 ]
-                hisoka.sendListMsg(m.chat, `pilih aja *Rull* Setmenu nya!`, hisoka.user.name, `*Hello Arull* !`, `Pilih Rull`, sections, m)
+                hisoka.sendListMsg(m.chat, `pilih aja *EksBot* Setmenu nya!`, hisoka.user.name, `*Hello EksBot* !`, `Pilih EksBot`, sections, m)
                 }
             }
             break
@@ -2730,13 +2728,13 @@ let capt = `⭔ Title: ${judul}
 Bot Ini Adalah Beta Multi-Device WhatsApp.
 
 ❏ *Info Creator*
-> Name : *ArullOfc*
-> Nomor : *https://wa.me/6285822347348*
-> Umur : *18*
+> Name : *EksBot*
+> Nomor : *https://wa.me/628500000000*
+> Umur : *20*
 > Region : *Indonesia 🇲🇨*
 > Hobyy : *Gtw*
-> Made in : *Kalimantan Selatan*
-> Nama Asli : *Sahrull... Private*
+> Made in : *south island*
+> Nama Asli : *Tobat dek*
 └───────⭓
 ~Silahkan Lihat Menu Dibawah^^~
 ┌──⭓ *Group Menu*
@@ -2761,6 +2759,15 @@ Bot Ini Adalah Beta Multi-Device WhatsApp.
 │⭔ ${prefix}upvote
 │⭔ ${prefix}cekvote
 │⭔ ${prefix}hapusvote
+│
+└───────⭓
+┌──⭓ *Islamic Menu*
+│
+│⭔ ${prefix}iqra
+│⭔ ${prefix}hadist
+│⭔ ${prefix}alquran
+│⭔ ${prefix}juzamma
+│⭔ ${prefix}tafsirsurah
 │
 └───────⭓
 ┌──⭓ *Webzone Menu*
@@ -3000,15 +3007,6 @@ Bot Ini Adalah Beta Multi-Device WhatsApp.
 │⭔ ${prefix}keluar
 │
 └───────⭓
-┌──⭓ *Islamic Menu*
-│
-│⭔ ${prefix}iqra
-│⭔ ${prefix}hadist
-│⭔ ${prefix}alquran
-│⭔ ${prefix}juzamma
-│⭔ ${prefix}tafsirsurah
-│
-└───────⭓
 ┌──⭓ *Voice Changer*
 │
 │⭔ ${prefix}bass
@@ -3043,12 +3041,12 @@ _Donasi Ngab Jangan Ngarep Free Mulu_`
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Grub Bot',
-                                    url: 'https://chat.whatsapp.com/LDN0EeJfASs0lbUhJsOJu1'
+                                    url: 'https://chat.whatsapp.com/'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Owner',
-                                    phoneNumber: '+6285822347348'
+                                    phoneNumber: '+628219500000'
                                 }
                             }, {
                                 quickReplyButton: {
