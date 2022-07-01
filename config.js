@@ -1,7 +1,5 @@
 /**
-   * Create By Dika Ardnt.
-   * Contact Me on wa.me/6288292024190
-   * Follow https://github.com/DikaArdnt
+   * 
 */
 
 const fs = require('fs')
@@ -14,14 +12,14 @@ global.APIs = {
 
 // Apikey Website Api
 global.APIKeys = {
-	'https://zenzapis.xyz': 'Your Key',
+	'https://zenzapis.xyz': '25a2711066',
 }
 
 // Other
-global.owner = ['6285822347348','6285822347348','6285822347348']
-global.premium = ['6285822347348']
+global.owner = ['6289699805903','6289699805903','6289699805903']
+global.premium = ['6289699805903']
 global.packname = 'Sticker by'
-global.author = 'ArullOfc'
+global.author = 'EksBot'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
